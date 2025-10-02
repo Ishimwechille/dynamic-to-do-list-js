@@ -1,6 +1,7 @@
+// ✅ Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", () => {
     // ✅ Select DOM Elements
-    const addButton = document.getElementById("add-task"); // matches HTML button ID
+    const addButton = document.getElementById("add-task-btn"); // must match 'add-task-btn'
     const taskInput = document.getElementById("task-input");
     const taskList = document.getElementById("task-list");
 
