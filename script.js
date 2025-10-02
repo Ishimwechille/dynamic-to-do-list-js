@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const addButton = document.getElementById("add-task"); // ✅ matches HTML
+    const add-task-btn = document.getElementById("add-task"); // matches HTML
     const taskInput = document.getElementById("task-input");
     const taskList = document.getElementById("task-list");
 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         taskInput.value = "";
     }
 
-    addButton.addEventListener("click", addTask);
+  add-task-btn.addEventListener("click", addTask);
     taskInput.addEventListener("keypress", (event) => {
         if (event.key === "Enter") addTask();
     });
